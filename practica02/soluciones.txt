@@ -1,0 +1,20 @@
+Línea 9: no se puede encontrar el símbolo
+booleaN prop = 0. La solución que encontré fué cambiar la n mayúscula por minúscula y en lugar de 0 le puse false. 
+
+Línea 10: posible conversión con pérdida de int a byte
+byte ochoBits = 128. Mi solución fue poner -128 para que entrara en el rango de valores de byte. 
+
+Línea 11: posible conversión con pérdida de int a short
+bits dieciseis = -32769. Agregué un número que entrara en el rango de short, el cual fué -32768, es decir cambié el 9 por el 8. 
+
+Línea 14: no puede encontrar el símbolo
+long = (-b + sqrt (Discriminante)) / (2 * a). 
+Cambié D mayúscula por minúscula de discriminante. Cambié long por double. 
+
+Línea 17: no se puede encontrar el símbolo
+Char ch1, ch2. Cambié C mayúscula por c minúscula en char. 
+
+Línea 18: error: no se puede encontrar el símbolo
+ch = 'g'; ch2 = "w". Le agregué el 1 a ch. En esa misma línea la w le puse una comilla simple para que estuviera igual que g. 
+
+
