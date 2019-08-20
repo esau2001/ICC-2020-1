@@ -16,12 +16,12 @@ public class Sintaxis {
 
 		char  ch1, ch2;
 		ch1 = 'g'; ch2 = 'w';
-		int d = 1 / (a - 3);
+		int d = 1 / (a - 4);
 
 		// Declaraciones
 		
-                int var_1 = 2147483648
-                int quote = '
+                long var_1 = 2147483648L;
+                char quote = '\'';
 	}
 
 }
