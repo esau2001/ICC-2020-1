@@ -1,0 +1,6 @@
+¿Por qué se imprime 17 dos veces en PrePost.java? 
+La razón por la que a la hora de compilar PrePost.java imprime 2 veces 17, es porque primero me dicen que X=20, en las siqguientes líneas se le va a restar un 1, por lo que me dará 19 y 18, pero en la siguiente línea el --x me indica que el valor de la epresión es el valor de la variable después que el nuevo valor es almacenado, es decir que me va a dar un 17, posteriormente otro 17 y ya hasta la siguiente línea me va a restar un 1, que me va a dar 16. 
+
+
+Razón del resultado obtenido de Operadores.java.
+Porque me está dividiendo 39/5 lo que  me da 7.8, pero en el caso de dividendoEntero me está pidiendo un resultado de tipo entero, por lo que se redondea y me da 7. En el segundo de dividendoReal me da un resultado de tipo double, es decir un número real de 64 bits con 15 dígitos en la parte decimal, por lo que me da mi resultado con el punto decimal, es decir, 7.8. 
