@@ -27,14 +27,14 @@ añoPub = " ";
   
 /**
  * Contructor con parámetros que inicialicen los atributos a los valores de dichos paramétros 
- * @param (10) 
+ * @param (titulo, autor, añoPub) 
  */
 
-	public Libro () {
+	public Libro (String titulo, String autor, String añoPub) {
 
-titulo = " ";
-autor = " ";
-añoPub = " "; 
+titulo = titulo;
+autor = autor;
+añoPub = añoPub; 
 
  
 }
