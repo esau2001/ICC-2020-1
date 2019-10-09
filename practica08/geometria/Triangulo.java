@@ -7,7 +7,7 @@ package geometria;
 
 public class Triangulo {
 
-        public static final int EQUILATERO = 0;
+    public static final int EQUILATERO = 0;
 	public static final int ISOSCELES = 1;
 	public static final int ESCALENO = 2;
 
