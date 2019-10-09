@@ -31,15 +31,18 @@ public class A extends PApplet{
 */
         @Override
         public void draw(){
-        	for (int i = 0; i < 8; i ++){
-        		if (i%2==0){
-        			fill (0xFF000000);
-        		}else{ fill (0xFFFFFFFF);
+        	for (int i = 0; i < 800/8; i ++){
+        		for (int a = 0; a<800/8; a++){
+        			if ((a%2 != 0 && i%2 != 0) || (a%2==0 && i%2 == 0)){
+        			fill (0xFFFFFF);
+        		}else{ 
+        			fill (0x000000);
         			
         		}
-        		rect (i * 100, 100, 100, 100);
+        		rect (a * (800/8), i * (800/8), (800/8), (800/8)); 
         		}
-}
+			}
+		}
 }
         		
         	
