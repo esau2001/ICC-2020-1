@@ -4,7 +4,7 @@
 */
 
 
-package practica10; 
+package app; 
 
 import processing.core.PApplet;
 import processing.core.PImage;
@@ -15,19 +15,19 @@ import ajedrez.piezas.Pieza;
 import ajedrez.piezas.Peon;
 import ajedrez.piezas.Dama; 
 
-public class A extends PApplet{
+public class Main extends PApplet{
 	private Tablero tablero; 
 	private HashMap<String, PImage> imagenes;
 	 
 	 public static void main(String[] args){
 
-	     main("practica10.A");
+	     main("app.Main");
 
 	 }
 
 	 	@Override
 	 	public void settings(){
-	 	      size(800,800);
+	 	      size(displayHeight * 4 / 5, displayHeight * 4 / 5);
 	 	}
         
         @Override 
@@ -71,10 +71,10 @@ public class A extends PApplet{
         		for (int i = 0; i<8; i++){
         		   for (int j=0; j<8;j++){
         		      if ((i+j)%2==0){
-        		          fill(0xffffffff);
+        		          fill(0xFFFFFFFF);
 
         		}else{
-        		fill(0x44000000);
+        		fill(0X44000000);
         	}
         	rect(j*(height/8), i * (height/8),
         	    height / 8, height /8);
@@ -94,6 +94,11 @@ public class A extends PApplet{
     }
 
 }
+
+
+
+
+
 
 
         		
